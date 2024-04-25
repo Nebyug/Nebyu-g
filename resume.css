@@ -1,0 +1,11 @@
+.inline-experience {
+    display: flex;
+    align-items: center;
+}
+.inline-bar {
+    margin-right: 10px;
+}
+.inline-bar::after {
+    content: "|";
+    margin: 0 10px; 
+}
