@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    background-image: url("/img/ax.jpg");
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+:root {
+    --primary-hsl: 200, 100%, 90%;
+    --primary-light-hsl: 200 100%, 5%;
+    --primary-dark-hsl: 200 100%, 0%;
+}
+.fullscreen-container {
+    
+    
+    height:100vh;
+    width:100vw;
+    margin-top:-40px;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.title {
+    color:#212529;
+    font-weight:normal;
+    text-align:center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form {
+    display:flex;
+    flex-direction:column;
+    gap:17px;
+    margin-top:30px;
+}
+.input-group {
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+}
+.input-group label {
+    font-weight:lighter;
+    text-align:center;
+}
+.input-group input {
+    font-size:1.25rem;
+    background-color: hsl(var(--primary-light-hsl), .3);
+    border:none; 
+    border-radius: .3em;
+    padding: .5em;
+    outline:none;
+    font-weight:lighter;
+}
+.login-container {
+    --color:hsl(var(--primary-dark-hsl), .1);
+    background-color: var(--color);
+    box-shadow: 0 0 15px 0 var(--color);
+    padding: 40px 30px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 100px;  
+}
+.input-group input:focus {
+    box-shadow: 0 0 0 1px hsl(var(--primary-dark-hsl));
+}
+.input-group.valid input:focus {
+    box-shadow: 0 0 0 2px hsl(120, 42%, 75%)
+}
+.input-group.invalid input:focus {
+box-shadow: 0 0 0 2px hsl(0, 39%, 58%)
+}
+.submit {
+    padding: 25px 100px;
+    background-image: url("/img/bx\ -\ Copy.jpg");
+    background-position: center; 
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10%;
+}
+.submit:hover {
+    background-image:url("/img/bx\ -\ Copy.jpg");
+    background-position: right;
+    transition: 2s;    
+    cursor:pointer;
+}
