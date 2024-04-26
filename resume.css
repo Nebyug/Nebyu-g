@@ -1,4 +1,6 @@
-.inline-experience {
+body {
+    margin-left: 2%;
+}.inline-experience {
     display: flex;
     align-items: center;
 }
@@ -8,4 +10,7 @@
 .inline-bar::after {
     content: "|";
     margin: 0 10px; 
+}
+#incite {
+    margin-left: -1%;
 }
