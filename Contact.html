@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="Custom Printing" content="Incite ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title> Incite </title>
+    <link rel="stylesheet" href="nav.css">  
+    <link rel ="stylesheet" href="contact.css">   
+</head>
+
+
+ 
+<body>
+  <nav class="navbar">
+    <a href="Home.html"> Home </a>
+    <a href="resume.html"> Resume </a>
+    <a href="Contact.html"> Contact </a>
+    <a href="home.html" id="incite"> Nebyu Getachew </a>
+  </nav>  
+     
+
+<div class="fullscreen-container"> 
+    <div class="login-container">
+      <h1 class="title"> Leave your name and email ! </h1>
+     <form class="form">
+         <div class="input-group valid">     
+          
+          <div class="input-group invalid">
+            <label for="Name"> Name</label>
+            <input type="text" name="name" id="Name"> 
+            
+         </div>
+           <label for="email"> Email</label>
+           <input type="email" name="email" id="email"> 
+         </div>
+     
+
+
+         <button class="submit"  onclick="submitForm()"> Submit </button>
+       
+       
+        </form>
+    </div>
+</div>
+    
+<script>
+  function submitForm() {
+      var userName = document.getElementById("Name").value; // Corrected ID to "Name"
+      alert("Thank You " + userName + ", I will be in touch, Very Soon!");
+  }
+</script>  
+    
+    
+
+
+
+
+</body>
+</html>
