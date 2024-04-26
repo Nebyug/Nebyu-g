@@ -78,14 +78,14 @@ box-shadow: 0 0 0 2px hsl(0, 39%, 58%)
 }
 .submit {
     padding: 25px 100px;
-    background-image: url("/img/bx\ -\ Copy.jpg");
+    background-image: url("/bx\ -\ Copy.jpg");
     background-position: center; 
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10%;
 }
 .submit:hover {
-    background-image:url("/img/bx\ -\ Copy.jpg");
+    background-image:url("/bx\ -\ Copy.jpg");
     background-position: right;
     transition: 2s;    
     cursor:pointer;
