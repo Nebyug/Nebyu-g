@@ -1,0 +1,14 @@
+#me {
+    margin-top: 2%;
+    margin-left:9%;
+    position:absolute;
+    height: 600px;
+    width: 480px;
+}
+#welcome {
+    margin-top: 10%;
+    margin-left: 50%;
+    position:absolute;
+    font-size: 100px;
+    font-family: harrington;
+}
