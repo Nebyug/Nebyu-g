@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.navbar {
+    display:flex;
+    justify-content: end;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-right: 3%;
+    gap: 10px;
+}
+#incite {
+    margin-right: auto;
+    margin-left: 2%;
+    font-family: harrington;
+    order: -1;
+    font-weight: bolder;
+    padding:0px;
+    align-self: center;
+    font-size: 30px;
+}
+#incite:hover{
+    background-color:#f2f2f2;
+}
+.navbar a {
+    color: #212529;
+    text-decoration: none;
+    padding: 10px 19px;    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.navbar a:hover {
+    background-color: rgb(216, 215, 215);
+    border-radius: 20px;
+}
