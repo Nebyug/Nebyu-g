@@ -1,6 +1,7 @@
 body {
     margin-left: 2%;
-}.inline-experience {
+}
+.inline-experience {
     display: flex;
     align-items: center;
 }
