@@ -1,14 +1,13 @@
-#me {
-    margin-top: 2%;
-    margin-left:9%;
-    position:absolute;
-    height: 600px;
-    width: 480px;
-}
-#welcome {
-    margin-top: 10%;
-    margin-left: 40%;
-    position:absolute;
-    font-size: 100px;
-    font-family: Fantasy;
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to top, rgba(242, 242, 242, 0), rgba(242, 242, 242, 1)), url("/img/me1.jpeg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
