@@ -80,7 +80,7 @@ box-shadow: 0 0 0 2px hsl(0, 39%, 58%)
     background-image: url("/bx\ -\ Copy.jpg");
     background-position: center; 
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Fantasy;
     border-radius: 10%;
 }
 .submit:hover {
