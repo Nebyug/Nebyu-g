@@ -20,9 +20,7 @@ body {
     align-self: center;
     font-size: 30px;
 }
-#incite:hover{
-    background-color:#f2f2f2;
-}
+
 .navbar a {
     color: #212529;
     text-decoration: none;
