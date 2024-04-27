@@ -4,7 +4,7 @@
 }
 body {
     margin: 0;
-    background-image: url("/bx\ -\ Copy.jpg");
+    background-image: url("/ax.jpg");
     background-color: #f2f2f2;
     position:relative;
     background-position: center;
@@ -15,6 +15,15 @@ body {
     --primary-hsl: 200, 100%, 90%;
     --primary-light-hsl: 200 100%, 5%;
     --primary-dark-hsl: 200 100%, 0%;
+}
+.fullscreen-container {
+    height:100vh;
+    width:100vw;
+    margin-top:-40px;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 .title {
