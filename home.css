@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-
+    background-image: linear-gradient(to top, rgba(242, 242, 242, 0), rgba(242, 242, 242, 1)), url("/me1.jpeg");
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -17,5 +17,5 @@ body {
     position:absolute;
     font-size: 40px;
     font-family: Fantasy;
-    color:white;
+    color:black;
 }
