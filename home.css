@@ -11,3 +11,11 @@ body {
     width: 100%;
     position: relative;
 }
+#welcome {
+    margin-top: 1%;
+    margin-left: 4%;
+    position:absolute;
+    font-size: 40px;
+    font-family: Fantasy;
+    color:white;
+}
